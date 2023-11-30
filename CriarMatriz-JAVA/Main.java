@@ -28,7 +28,7 @@ public class Main {
                 if (matriz[i][j] == matriz[0][0]) {
                     System.out.print("");
                 } else if(matriz[i][j] != matriz[0][0]) {
-                    System.out.print("," + matriz[i][j]);
+                    System.out.print(", " + matriz[i][j]);
                 }
             }
         }
